@@ -27,7 +27,7 @@ by Daiki Matsudate / @d_date
 - @objc inference
 
 ---
-## [SE-0110] Distinguish between single-tuple and multiple-argument function types
+### [SE-0110] Distinguish between single-tuple and multiple-argument function types
 
 ``` swift
 //Swift 3.1
