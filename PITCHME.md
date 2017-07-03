@@ -9,7 +9,10 @@ by Daiki Matsudate / @d_date
 - CLEM Organizer
 - WWDC17 Attendee
 
+---
+
 ![profile.jpg](./res/profile.jpg)
+
 ---
 
 ![qiita.png](./res/qiita.png)
@@ -21,7 +24,7 @@ by Daiki Matsudate / @d_date
 
 
 ---
-## Migration to Swift 4
+## Migrate to Swift 4
 
 - [SE-0110] Distinguish between single-tuple and multiple-argument function types
 - @objc inference
@@ -39,9 +42,15 @@ let fn1 : (Int, Int) -> Void = { x in
 let fn2 : ((Int, Int, Int)) -> Int = { x in
     return x.0 + x.1 + x.2　//⭕
 }
+```
+
+---
+### [SE-0110] Distinguish between single-tuple and multiple-argument function types
 
 //Swift 3.1 and 4
 let fn3 : (Int, Int, Int) -> Int = { x, y, z in
     return x + y + z //⭕
 }
 ```
+
+---
